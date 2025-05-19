@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { AdminTemplateComponent } from './admin-template/admin-template.component';
 import {AppHttpInterceptor} from './interceptors/app-http.interceptor';
 import { NotAuthorizedComponent } from './not-authorized/not-authorized.component';
+import { ClientComponent } from './client/client.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { NotAuthorizedComponent } from './not-authorized/not-authorized.componen
     LoginComponent,
     AdminTemplateComponent,
     NotAuthorizedComponent,
+    ClientComponent,
   ],
   imports: [
     BrowserModule,
